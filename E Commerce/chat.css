@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: linear-gradient(90deg, #020617, #021a1c, #0b3b35);
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #e9e9e9;
+  border-radius: 40px;
+  margin: 20px;
+}
+
+.logo {
+  font-weight: bold;
+  color: #0b3b35;
+}
+
+.nav-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.start-btn {
+  background: #0b3b35;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+
+/* LEFT */
+.left {
+  max-width: 500px;
+}
+
+.left h1 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.left span {
+  color: #eab308;
+  border-bottom: 4px solid #eab308;
+}
+
+.left p {
+  margin: 20px 0;
+  color: #ccc;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.primary {
+  background: linear-gradient(90deg, #1f7a63, #eab308);
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  color: white;
+}
+
+.secondary {
+  background: transparent;
+  border: 2px solid #eab308;
+  padding: 12px 25px;
+  border-radius: 25px;
+  color: white;
+}
+
+/* RIGHT */
+.right {
+  position: relative;
+}
+
+.right img {
+  width: 300px;
+}
+
+/* BADGES */
+.badge {
+  position: absolute;
+  background: rgba(255,255,255,0.05);
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.badge span {
+  font-size: 10px;
+  color: #aaa;
+}
+
+.b1 {
+  top: 20px;
+  right: -40px;
+}
+
+.b2 {
+  left: -80px;
+  top: 120px;
+}
+
+.b3 {
+  bottom: 50px;
+  right: -40px;
+}

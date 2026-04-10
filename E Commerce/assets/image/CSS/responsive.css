@@ -1,0 +1,290 @@
+/* Tablet view */
+@media (max-width: 992px) {
+    .lux1 {
+        width: 40%;
+    }
+    .lux2 {
+        width: 40%;
+    }
+    .lux3 {
+        width: 40%;
+    }
+    .lux4 {
+        width: 40%;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 600px) {
+    .footer-top {
+        flex-direction: column;
+    }
+
+    .lux1,
+    .lux2,
+    .lux3,
+    .lux4 {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px){
+    .show{
+        display: none;
+    }
+    .show-none{
+        display: flex;
+        /* display: block; */
+        gap: 20px;
+    }
+     .section10{
+        display: none;
+    }
+    .bottom{
+        gap: 20px;
+    }
+    .srcptm{
+        gap: 20px;
+
+    }
+    .srcptm p{
+        font-size: 10px;
+    }
+    .discover h2{
+      font-size: 40px;
+    }
+    .discover p{
+        font-size: 15px;
+    }
+}
+@media (max-width:600px){
+    .link{
+        display: none;
+    }
+    
+    .pic{
+       gap: 15px;
+       justify-content: center
+    
+       
+    }
+    .pic1{
+        width:45%;
+       
+    }
+    .pic div{
+        bottom:10px;
+        /* left: 10px; */
+        font-size: 14px;
+    }
+    .downbar{
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .why{
+        margin-top: 40px;
+    }
+    .summer{
+        padding-top: 0px;
+    }
+    .photos{
+        grid-template-columns: repeat(2, 1fr); /* 4 se 2 column */
+        gap: 15px;
+        padding: 0 10px;
+    }
+    /* <--------shop page --------> */
+    .hoodi p{
+        font-size: 10px;
+    }
+    .rating{
+        padding-left: 0px;
+        padding-top: 5px;
+        font-size: 9px;
+    }
+    .price p{
+     padding-top: 10px;
+    }
+    .select{
+        font-size: 10px;
+        padding: 7px;
+    }
+    .colm1 img{
+        height: 15px;
+        width: 15px;
+    }
+    .colm1 p{
+        font-size: 15px;
+    }
+    .colm1{
+        padding-top: 0px;
+    }
+    .doller h2{
+        font-size: 18px;
+    }
+    .doller p{
+        font-size: 15px;
+    }
+    .size h2{
+        font-size: 20px;
+    }
+    .clt-size div{
+     width: 30px;
+     font-size: 15px;
+
+    }
+   .circle{
+    height: 30px;
+    width: 30px;
+    
+   }
+   .clear button{
+    font-size: 10px;
+    padding: 7px;
+   }
+   .clothphoto img{
+    /* width:100px ; */
+   }
+   .clothpic{
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+   /* <---------page4 ---------> */
+   .touch p{
+    font-size: 10px;
+   }
+   .touch h1{
+    font-size: 25px;
+   }
+
+}
+/* <------small mobile ------->  */
+@media (max-width:320px){
+    .discover h2{
+        font-size: 20px;
+
+    }
+    .discover p{
+        font-size: 10px;
+    }
+    .shop{
+        height: 30px;
+        width: 78px;
+    }
+    .exp{
+        height: 30px;
+        width: 150px;
+    }
+    .section2 p{
+      font-size: 30px;
+    }
+    .trend p{
+        font-size: 15px;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .trend button{
+        height: 30px;
+        width: 100px;
+    }
+    .card p{
+        font-size: 10px;
+        
+    }
+    .rating{
+        padding-left: 10px;
+    }
+    .new{
+        font-size: 10px;
+    }
+    .summer h2{
+        font-size: 20px;
+
+    }
+    .summer p{
+        font-size: 10px;
+    }
+    .summer button{
+        height: 30px;
+        width: 120px;
+    }
+    .copy{
+        font-size: 15px;
+    }
+    div h2{
+        font-size: 15px;
+    }
+    
+    .pic {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .pic1 {
+        width: 100%;
+    }
+
+    .pic1 div h2 {
+        font-size: 16px;
+    }
+
+    .pic1 div p {
+        font-size: 12px;
+    }
+    .photos{
+        grid-template-columns: 1fr;
+    }
+    .bottom{
+        padding: 0px;
+    }
+    .srcptm h3{
+        font-size:10px;
+
+    }
+   
+    select{
+        font-size: 8px;
+        padding: 5px;
+    }
+    .show p{
+        font-size: 10px;
+    }
+    
+    .shop1{
+        height: 60px;
+       padding-top: 10px;
+       padding-left: 10px;
+    }
+    .shop1 h2{
+        font-size:15px;
+    
+    
+}
+.shop1 p{
+    font-size: 10px;
+}
+.aside{
+    grid-template-columns: 1fr;
+    margin: 0px;
+}
+}
+/* <-------- mobile L page 2 ------> */
+@media (max-width:425px){
+    .shop1 h2{
+        font-size: 15px;
+       
+    }
+    .shop1 {
+    padding-left: 20px;
+        
+    }
+    .form1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}

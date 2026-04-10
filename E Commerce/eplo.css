@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.section1 {
+    background: linear-gradient(90deg,
+            #020617 0%,
+            #021a1c 40%,
+            #0b3b35 100%);
+    height: auto;
+    padding-top: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    background-color: aliceblue;
+
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 0 10px 0 10px;
+
+}
+
+.logo img {
+    /* height: 14vh; */
+    width: 16vw;
+}
+
+.icon {
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.icon a {
+    text-decoration: none;
+}
+
+.icon button {
+    /* padding: 8px; */
+    /* border-radius: 20px; */
+    padding: 8px 18px;
+    border-radius: 20px;
+    border: none;
+    background: #0b3b35;
+    color: white;
+    cursor: pointer;
+}
+
+.just {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.robort img {
+    /* height: 100vh; */
+    /* width: 60vw; */
+    height: 80vh;
+
+
+}
+
+.just {
+    width: 40%;
+}
+
+.just h1 {
+    font-size: 50px;
+}
+
+.just p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+.see{
+    background: none;
+    color: aliceblue;
+}
+.try button {
+    padding: 15px;
+    border-radius: 20px;
+   border-color: rgb(205, 222, 160);
+    /* background: none; */
+}
+
+.just span {
+    color: goldenrod;
+}
+
+.try {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.robort {
+    position: relative;
+}
+
+.hr {
+    position: absolute;
+    top: 200px;
+    left: -60px;
+    color: aliceblue;
+    border: 1px solid rgb(238, 236, 236);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.K {
+    position: absolute;
+    top: 90px;
+    right: -10px;
+    color: aliceblue;
+    padding: 10px;
+    border: 1px solid rgb(238, 236, 236);
+
+    border-radius: 10px;
+
+
+}
+
+.match {
+    position: absolute;
+    bottom: 90px;
+    right: -10px;
+    color: aliceblue;
+    border: 1px solid rgb(238, 236, 236);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.robort h2 {
+    color: aqua;
+}
+
+.free {
+    background-color: #0b3b35;
+    color: aliceblue;
+}

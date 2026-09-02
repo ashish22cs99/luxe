@@ -749,31 +749,56 @@ input:focus{
 }
 
 
-.message input{
-    height: 80px;
+/* Heading margin */
+.msg h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
 }
 
-.mag{
-   padding-bottom: 20px;
-}
-
-.message input{
+/* Textarea input style matching inputs */
+.message textarea {
     width: 100%;
-    height: 20vh;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    resize: vertical;
+    font-family: inherit;
+    font-size: 14px;
+    transition: 0.3s;
 }
-.sendmsg{
-   width: 50vh;
-   background-color: black;
-   color: aliceblue;
-   height: 5vh;
-  display: flex;
-  align-items: center;
-   text-align: center;
-   justify-content: center;
-  margin-left: 70px;
-   border-radius: 5px;
-  
-   
+
+.message textarea:focus {
+    border-color: #000;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* Send Message button container and styling */
+.sendmsg {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.sendmsg button {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.sendmsg button:hover {
+    background-color: #222;
+}
+
+.sendmsg button:active {
+    transform: scale(0.99);
 }
 .question {
     max-width: 800px;    

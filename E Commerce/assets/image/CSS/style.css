@@ -34,13 +34,21 @@ color:black;
 font-size:18px;
 }
 
-.bar{
-display:flex;
-gap:15px;
+.right-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-.bar img{
-width:3vh;
+.bar {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.bar img {
+    width: 3vh;
+    cursor: pointer;
 }
 
 /* hide checkbox */
